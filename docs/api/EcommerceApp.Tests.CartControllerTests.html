@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+      <title>Class CartControllerTests | EcommerceApp &#183; Integraci&#243;n con Moq </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CartControllerTests | EcommerceApp &#183; Integraci&#243;n con Moq ">
+      
+      <meta name="description" content="Comprueba la colaboraci&#243;n de los servicios mediante Moq estricto.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/new/main/apiSpec/new?filename=EcommerceApp_Tests_CartControllerTests.md&amp;value=---%0Auid%3A%20EcommerceApp.Tests.CartControllerTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="EcommerceApp.Tests.CartControllerTests">
+
+
+
+  <h1 id="EcommerceApp_Tests_CartControllerTests" data-uid="EcommerceApp.Tests.CartControllerTests" class="text-break">
+Class CartControllerTests  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><span class="xref">EcommerceApp</span>.<a class="xref" href="EcommerceApp.Tests.html">Tests</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>EcommerceApp.Tests.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Comprueba la colaboración de los servicios mediante Moq estricto.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CartControllerTests</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CartControllerTests</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__address" data-uid="EcommerceApp.Tests.CartControllerTests._address">
+  _address
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Dirección de la operación de prueba.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private IAddressInfo _address</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EcommerceApp.Api.Models.IAddressInfo.html">IAddressInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__card" data-uid="EcommerceApp.Tests.CartControllerTests._card">
+  _card
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tarjeta de la operación de prueba.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private ICard _card</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EcommerceApp.Api.Models.ICard.html">ICard</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__cart" data-uid="EcommerceApp.Tests.CartControllerTests._cart">
+  _cart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sustituto de la consulta del carrito.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Mock&lt;ICartService&gt; _cart</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mock</span>&lt;<a class="xref" href="EcommerceApp.Api.Services.ICartService.html">ICartService</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__controller" data-uid="EcommerceApp.Tests.CartControllerTests._controller">
+  _controller
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Controlador construido con las dependencias de prueba.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private CartController _controller</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="EcommerceApp.Api.Controllers.CartController.html">CartController</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__discount" data-uid="EcommerceApp.Tests.CartControllerTests._discount">
+  _discount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sustituto del cálculo del descuento.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Mock&lt;IDiscountService&gt; _discount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mock</span>&lt;<a class="xref" href="EcommerceApp.Api.Services.IDiscountService.html">IDiscountService</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__items" data-uid="EcommerceApp.Tests.CartControllerTests._items">
+  _items
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Productos utilizados por los escenarios.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private List&lt;ICartItem&gt; _items</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="EcommerceApp.Api.Models.ICartItem.html">ICartItem</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__payment" data-uid="EcommerceApp.Tests.CartControllerTests._payment">
+  _payment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sustituto de la autorización del pago.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Mock&lt;IPaymentService&gt; _payment</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mock</span>&lt;<a class="xref" href="EcommerceApp.Api.Services.IPaymentService.html">IPaymentService</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests__shipment" data-uid="EcommerceApp.Tests.CartControllerTests._shipment">
+  _shipment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sustituto del registro del envío.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Mock&lt;IShipmentService&gt; _shipment</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Mock</span>&lt;<a class="xref" href="EcommerceApp.Api.Services.IShipmentService.html">IShipmentService</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="EcommerceApp_Tests_CartControllerTests_SetUp_" data-uid="EcommerceApp.Tests.CartControllerTests.SetUp*"></a>
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests_SetUp" data-uid="EcommerceApp.Tests.CartControllerTests.SetUp">
+  SetUp()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prepara dependencias independientes y un total de veinte.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SetUp]
+public void SetUp()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EcommerceApp_Tests_CartControllerTests_ShouldProcessCheckout_" data-uid="EcommerceApp.Tests.CartControllerTests.ShouldProcessCheckout*"></a>
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests_ShouldProcessCheckout_System_Boolean_System_String_" data-uid="EcommerceApp.Tests.CartControllerTests.ShouldProcessCheckout(System.Boolean,System.String)">
+  ShouldProcessCheckout(bool, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Combina ambos resultados del cobro con parámetros.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[TestCase(true, &quot;charged&quot;)]
+[TestCase(false, &quot;not charged&quot;)]
+public void ShouldProcessCheckout(bool approved, string expected)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>approved</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Resultado del cobro.</p>
+</dd>
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Respuesta del checkout.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EcommerceApp_Tests_CartControllerTests_ShouldReturnCharged_" data-uid="EcommerceApp.Tests.CartControllerTests.ShouldReturnCharged*"></a>
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests_ShouldReturnCharged" data-uid="EcommerceApp.Tests.CartControllerTests.ShouldReturnCharged">
+  ShouldReturnCharged()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>El cobro aprobado produce un envío.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void ShouldReturnCharged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="EcommerceApp_Tests_CartControllerTests_ShouldReturnNotCharged_" data-uid="EcommerceApp.Tests.CartControllerTests.ShouldReturnNotCharged*"></a>
+
+  <h3 id="EcommerceApp_Tests_CartControllerTests_ShouldReturnNotCharged" data-uid="EcommerceApp.Tests.CartControllerTests.ShouldReturnNotCharged">
+  ShouldReturnNotCharged()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>El cobro rechazado no consulta productos ni registra envío.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Test]
+public void ShouldReturnNotCharged()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/blob/main/EcommerceApp/EcommerceApp.Tests/CartControllerTests.cs/#L9" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Milton H. Flores Chino · 2023078333 · Calidad y Pruebas de Software
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

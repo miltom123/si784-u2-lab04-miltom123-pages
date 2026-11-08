@@ -1,0 +1,380 @@
+{
+  "docfx_version": "2.81.0+ba844df625370a6bd7c1ecab0d0ec4d1d9128ac4",
+  "source_base_path": "/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/si784-2026-ii-si784-2026-ii-u2-lab04-miltom123/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Controllers.CartController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Controllers.CartController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Controllers.CartController",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Controllers.CartController.yml\" sourcestartlinenumber=\"1\">Coordina descuento, cobro y envío del carrito.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.AddressInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.AddressInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.AddressInfo",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Models.AddressInfo.yml\" sourcestartlinenumber=\"1\">Datos concretos de AddressInfo para el intercambio HTTP.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.Card.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.Card",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Models.Card.yml\" sourcestartlinenumber=\"1\">Datos concretos de Card para el intercambio HTTP.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.CartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.CartItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.CartItem",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Models.CartItem.yml\" sourcestartlinenumber=\"1\">Datos concretos de CartItem para el intercambio HTTP.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.CheckoutRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.CheckoutRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.CheckoutRequest",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Models.CheckoutRequest.yml\" sourcestartlinenumber=\"1\">Solicitud única de checkout con tarjeta y dirección.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.IAddressInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.IAddressInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.IAddressInfo",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Models.IAddressInfo.yml\" sourcestartlinenumber=\"1\">Contrato IAddressInfo del proceso de compra.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.ICard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.ICard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.ICard",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Models.ICard.yml\" sourcestartlinenumber=\"1\">Contrato ICard del proceso de compra.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.ICartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.ICartItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.ICartItem",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Models.ICartItem.yml\" sourcestartlinenumber=\"1\">Contrato ICartItem del proceso de compra.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.DemoCartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.DemoCartService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.DemoCartService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.DemoCartService.yml\" sourcestartlinenumber=\"1\">Carrito fijo para ejecutar la API de la práctica.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.DemoPaymentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.DemoPaymentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.DemoPaymentService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.DemoPaymentService.yml\" sourcestartlinenumber=\"1\">Simulador local que acepta el identificador demo-approved.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.DemoShipmentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.DemoShipmentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.DemoShipmentService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.DemoShipmentService.yml\" sourcestartlinenumber=\"1\">Registra localmente la cantidad de envíos aceptados.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.DiscountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.DiscountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.DiscountService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.DiscountService.yml\" sourcestartlinenumber=\"1\">Aplica un descuento del diez por ciento.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.ICartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.ICartService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.ICartService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.ICartService.yml\" sourcestartlinenumber=\"1\">Servicio de consulta del carrito.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.IDiscountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.IDiscountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.IDiscountService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.IDiscountService.yml\" sourcestartlinenumber=\"1\">Aplica el descuento al importe de la compra.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.IPaymentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.IPaymentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.IPaymentService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.IPaymentService.yml\" sourcestartlinenumber=\"1\">Contrato del servicio de cobro.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.IShipmentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.IShipmentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.IShipmentService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.IShipmentService.yml\" sourcestartlinenumber=\"1\">Contrato del servicio de envío.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.CartControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.CartControllerTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests.CartControllerTests",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Tests.CartControllerTests.yml\" sourcestartlinenumber=\"1\">Comprueba la colaboración de los servicios mediante Moq estricto.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.CheckoutHttpTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.CheckoutHttpTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests.CheckoutHttpTests",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Tests.CheckoutHttpTests.yml\" sourcestartlinenumber=\"1\">Integra la ruta HTTP, JSON, inyección de dependencias y servicios de demostración.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.DiscountServiceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.DiscountServiceTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests.DiscountServiceTests",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Tests.DiscountServiceTests.yml\" sourcestartlinenumber=\"1\">Comprueba el descuento real y su validación de importes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "clases.md",
+      "output": {
+        ".html": {
+          "relative_path": "clases.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

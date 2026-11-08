@@ -1,0 +1,32 @@
+Summary
+  Generated on: 11/08/2026 - 16:23:55
+  Coverage date: 11/08/2026 - 16:23:54
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 10
+  Files: 8
+  Line coverage: 100%
+  Covered lines: 44
+  Uncovered lines: 0
+  Coverable lines: 44
+  Total lines: 187
+  Branch coverage: 100% (6 of 6)
+  Covered branches: 6
+  Total branches: 6
+  Method coverage: 100% (23 of 23)
+  Full method coverage: 100% (23 of 23)
+  Covered methods: 23
+  Fully covered methods: 23
+  Total methods: 23
+
+EcommerceApp.Api                                   100%
+  EcommerceApp.Api.Controllers.CartController      100%
+  EcommerceApp.Api.Models.AddressInfo              100%
+  EcommerceApp.Api.Models.Card                     100%
+  EcommerceApp.Api.Models.CartItem                 100%
+  EcommerceApp.Api.Models.CheckoutRequest          100%
+  EcommerceApp.Api.Services.DemoCartService        100%
+  EcommerceApp.Api.Services.DemoPaymentService     100%
+  EcommerceApp.Api.Services.DemoShipmentService    100%
+  EcommerceApp.Api.Services.DiscountService        100%
+  Program                                          100%
